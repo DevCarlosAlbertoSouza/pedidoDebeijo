@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poema Romântico</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        #poema-container {
+            text-align: center;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        #opcoes {
+            margin-top: 20px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            margin: 0 10px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+        }
+
+        #verdadeiro {
+            background-color: #4caf50;
+            color: #fff;
+        }
+
+        #falso {
+            background-color: #f44336;
+            color: #fff;
+        }
+    </style>
+    </style>
+</head>
+<body>
+    <div id="poema-container">
+        <h1>Poema para Conquistar</h1>
+        <p>
+            Nos campos da vida, onde as flores dançam ao vento,<br>
+            Meu coração bate forte, um amor eu sinto no momento.<br>
+            Seu olhar, estrela brilhante, ilumina meu ser,<br>
+            Oh musa divina, permita-me um beijo lhe oferecer.
+        </p>
+
+        <div id="opcoes">
+            <button id="verdadeiro">Me dá um beijo?</button>
+            <button id="falso">Não, obrigado.</button>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('verdadeiro').addEventListener('click', function() {
+            alert('Que bom! Vamos marcar esse beijo.');
+            // Aqui você pode adicionar mais ações ou redirecionar para outra página
+        });
+
+        document.getElementById('falso').addEventListener('click', function() {
+            alert('Ah, que pena. Talvez da próxima vez.');
+            // Aqui você pode adicionar mais ações ou redirecionar para outra página
+        });
+    </script>
+</body>
+</html>
